@@ -1,0 +1,5 @@
+<%= form_with model: @item, data: {'turbo': false} do |f| %>
+  <%= f.hidden_field :lock_version %>
+  <%= f.text_field :title %>
+  <%= f.submit "Update" %>
+<% end %>

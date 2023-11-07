@@ -1,0 +1,2 @@
+class PessimisticItem < ApplicationRecord
+end

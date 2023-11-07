@@ -1,0 +1,2 @@
+module OptimisticItemsHelper
+end
